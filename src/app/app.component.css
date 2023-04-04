@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(0, 0, 205), rgb(64, 224, 208));
+    text-align: center;
+    color: white;
+}
+.font{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    background-color: rgb(0, 0, 0.5);
+    padding: 3em;
+    border-radius: 20px;
+}
+button{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    cursor: pointer;
+}
